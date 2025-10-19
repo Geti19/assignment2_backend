@@ -29,6 +29,7 @@ app.use(express.json());
 
 // Root
 app.get("/", (_req, res) => {
+  res.json({ message: "Welcome to Shabnam’s Portfolio API (Node.js + Express + MongoDB)" });
 });
 
 // API routes
